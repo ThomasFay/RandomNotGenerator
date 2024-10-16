@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<museScore version="4.20">
+  <programVersion>4.2.0</programVersion>
+  <programRevision>eb8d33c</programRevision>
+  <LastEID>48</LastEID>
+  <Score>
+    <Division>480</Division>
+    <showInvisible>1</showInvisible>
+    <showUnprintable>1</showUnprintable>
+    <showFrames>1</showFrames>
+    <showMargins>0</showMargins>
+    <open>1</open>
+    <metaTag name="arranger"></metaTag>
+    <metaTag name="composer">Compositeur / Arrangeur</metaTag>
+    <metaTag name="copyright"></metaTag>
+    <metaTag name="creationDate">2024-10-10</metaTag>
+    <metaTag name="lyricist"></metaTag>
+    <metaTag name="movementNumber"></metaTag>
+    <metaTag name="movementTitle"></metaTag>
+    <metaTag name="platform">Linux</metaTag>
+    <metaTag name="source"></metaTag>
+    <metaTag name="subtitle">Sous-titre</metaTag>
+    <metaTag name="translator"></metaTag>
+    <metaTag name="workNumber"></metaTag>
+    <metaTag name="workTitle">Partition sans titre</metaTag>
+    <Order id="orchestral">
+      <name>Orchestral</name>
+      <instrument id="guitar-nylon">
+        <family id="guitars">Guitares</family>
+        </instrument>
+      <section id="woodwind" brackets="true" barLineSpan="true" thinBrackets="true">
+        <family>flutes</family>
+        <family>oboes</family>
+        <family>clarinets</family>
+        <family>saxophones</family>
+        <family>bassoons</family>
+        <unsorted group="woodwinds"/>
+        </section>
+      <section id="brass" brackets="true" barLineSpan="true" thinBrackets="true">
+        <family>horns</family>
+        <family>trumpets</family>
+        <family>cornets</family>
+        <family>flugelhorns</family>
+        <family>trombones</family>
+        <family>tubas</family>
+        <unsorted group="brass"/>
+        </section>
+      <section id="timpani" brackets="true" barLineSpan="true" thinBrackets="true">
+        <family>timpani</family>
+        </section>
+      <section id="percussion" brackets="true" barLineSpan="true" thinBrackets="true">
+        <family>keyboard-percussion</family>
+        <unsorted group="pitched-percussion"/>
+        <family>drums</family>
+        <family>unpitched-metal-percussion</family>
+        <family>unpitched-wooden-percussion</family>
+        <family>other-percussion</family>
+        <unsorted group="unpitched-percussion"/>
+        </section>
+      <family>keyboards</family>
+      <family>harps</family>
+      <family>organs</family>
+      <family>synths</family>
+      <unsorted/>
+      <soloists/>
+      <section id="voices" brackets="true" barLineSpan="false" thinBrackets="true">
+        <family>voices</family>
+        <family>voice-groups</family>
+        </section>
+      <section id="strings" brackets="true" barLineSpan="true" thinBrackets="true">
+        <family>orchestral-strings</family>
+        </section>
+      </Order>
+    <Part id="1">
+      <Staff id="1">
+        <StaffType group="pitched">
+          <name>stdNormal</name>
+          </StaffType>
+        <defaultClef>G8vb</defaultClef>
+        </Staff>
+      <trackName>Guitare classique</trackName>
+      <Instrument id="guitar-nylon">
+        <longName>Guitare classique</longName>
+        <shortName>Guit.</shortName>
+        <trackName>Guitare classique</trackName>
+        <minPitchP>40</minPitchP>
+        <maxPitchP>83</maxPitchP>
+        <minPitchA>40</minPitchA>
+        <maxPitchA>83</maxPitchA>
+        <instrumentId>pluck.guitar.nylon-string</instrumentId>
+        <clef>G8vb</clef>
+        <singleNoteDynamics>0</singleNoteDynamics>
+        <StringData>
+          <frets>19</frets>
+          <string>40</string>
+          <string>45</string>
+          <string>50</string>
+          <string>55</string>
+          <string>59</string>
+          <string>64</string>
+          </StringData>
+        <Channel name="open">
+          <program value="24"/>
+          <synti>Fluid</synti>
+          </Channel>
+        <Channel name="mute">
+          <program value="28"/>
+          <synti>Fluid</synti>
+          </Channel>
+        </Instrument>
+      </Part>
+    <Staff id="1">
+      <VBox>
+        <height>10</height>
+        <eid>4294967418</eid>
+        <Text>
+          <eid>8589934598</eid>
+          <style>title</style>
+          <text>Test</text>
+          </Text>
+        <Text>
+          <eid>12884901894</eid>
+          <style>subtitle</style>
+          <text>Sous-titre</text>
+          </Text>
+        <Text>
+          <eid>17179869190</eid>
+          <style>composer</style>
+          <text>Compositeur / Arrangeur</text>
+          </Text>
+        </VBox>
+      <Measure>
+        <voice>
+          <KeySig>
+            <eid>21474836502</eid>
+            <concertKey>0</concertKey>
+            </KeySig>
+          <TimeSig>
+            <eid>25769803800</eid>
+            <sigN>4</sigN>
+            <sigD>4</sigD>
+            </TimeSig>
+          <Chord>
+            <eid>167503724659</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>171798691860</eid>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>176093659251</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>180388626452</eid>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>184683593843</eid>
+            <durationType>quarter</durationType>
+            <Note>
+              <eid>188978561044</eid>
+              <pitch>52</pitch>
+              <tpc>18</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>193273528435</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>197568495636</eid>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          <Chord>
+            <eid>201863463027</eid>
+            <durationType>eighth</durationType>
+            <Note>
+              <eid>206158430228</eid>
+              <pitch>57</pitch>
+              <tpc>17</tpc>
+              </Note>
+            </Chord>
+          </voice>
+        </Measure>
+      </Staff>
+    </Score>
+  </museScore>
