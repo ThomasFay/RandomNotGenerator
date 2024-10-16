@@ -1,6 +1,7 @@
 package printer
 
 import java.time.LocalDate
+import dataStruct.Measure
 
 object Printer {
 
@@ -109,7 +110,6 @@ object Printer {
       <Measure>
         <voice>
           <Rest>
-            <eid>163208757273</eid>
             <durationType>measure</durationType>
             <duration>4/4</duration>
             </Rest>
@@ -117,11 +117,13 @@ object Printer {
         </Measure>
 """
 
-  def printScore: String = {
+  def printScore(measures : List[Measure]): String = {
+    require(measures.map(_.duration).distinct.length == 1,"All measures should have the same duration")
     startingString ++
     startStaff ++
     box ++
-    oneMeasure ++
+    measures.head.toXml(true) ++
+    measures.tail.map(_.toXml(false)).mkString("\n") ++
     endStaff ++
       close
   }
