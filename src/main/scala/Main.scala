@@ -1,7 +1,17 @@
 package main
 
+import java.io.PrintWriter
+
 
 
 object Main extends App {
-  println("Hello world")
+
+  val out = "Out.mscx"
+
+  new PrintWriter(out) {
+    write(printer.Printer.printScore)
+    close()
+  }
+
+
 }
