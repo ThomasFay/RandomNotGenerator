@@ -105,10 +105,23 @@ object Printer {
   </museScore>
 """
 
+  private val oneMeasure = """
+      <Measure>
+        <voice>
+          <Rest>
+            <eid>163208757273</eid>
+            <durationType>measure</durationType>
+            <duration>4/4</duration>
+            </Rest>
+          </voice>
+        </Measure>
+"""
+
   def printScore: String = {
     startingString ++
     startStaff ++
     box ++
+    oneMeasure ++
     endStaff ++
       close
   }
