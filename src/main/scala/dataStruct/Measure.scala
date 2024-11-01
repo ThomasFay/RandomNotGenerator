@@ -1,7 +1,7 @@
 package dataStruct
 
 case class Measure(duration: Int, contents: List[Content]) {
-  require(contents.map(_.duration).sum <= duration)
+  require(contents.map(_.duration).sum <= duration,"Measure duration is too short for the number of note")
   require(List(8,12,16).contains(duration),s"Measure with duration = $duration is not supported yet")
 
   def timeSig : String = {
@@ -17,7 +17,7 @@ case class Measure(duration: Int, contents: List[Content]) {
     val time = if (fst) timeSig else ""
     s"""<Measure>
 <voice>
-$timeSig
+$time
 $contentsToXml
 </voice>
 </Measure>
