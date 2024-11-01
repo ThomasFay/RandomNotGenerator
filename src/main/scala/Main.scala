@@ -2,7 +2,7 @@ package main
 
 import java.io.PrintWriter
 import dataStruct._
-
+import generator.Generator
 
 object Main extends App {
 
@@ -10,8 +10,10 @@ object Main extends App {
 
   val out = "Out.mscx"
 
+  val scoreGenerator = new Generator(Some(1000))
+
   new PrintWriter(out) {
-    write(printer.Printer.printScore(List(measure)))
+    write(printer.Printer.printScore(scoreGenerator.generateScore(4,List(62,64,66,68))))
     close()
   }
 
