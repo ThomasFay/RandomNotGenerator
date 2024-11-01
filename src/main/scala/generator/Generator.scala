@@ -45,7 +45,7 @@ class Generator(seed: Option[Long] = None) {
       if (nbMeasureLeft == 0) {
         score
       } else {
-        generateTheScore(nbMeasureLeft - 1,generateMeasure(possiblePitches,16) :: score)
+        generateTheScore(nbMeasureLeft - 1, generateMeasure(possiblePitches, 16) :: score)
       }
     }
     generateTheScore()
